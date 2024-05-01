@@ -2,6 +2,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install --cask rectangle
 brew install ripgrep
+cp -r config ~/.config
 
 # Editor Setup
 brew install --cask wezterm
